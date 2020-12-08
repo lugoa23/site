@@ -1682,13 +1682,16 @@ input::-moz-focus-inner {
 }
 
 .header-main-nav a:hover,
-.header-main-nav a:focus,
-.header-main-nav a:active {
+.header-main-nav a:focus {
   color: #790fc0;
 }
 
-.header-main-nav .current a {
+.header-main-nav a:active {
   color: #ffffff;
+}
+
+.header-main-nav .current a {
+  color: #790fc0;
 }
 
 .header-social {
